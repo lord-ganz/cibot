@@ -16,8 +16,8 @@ from dotenv import load_dotenv
 load_dotenv("config.env")
 
 
-API_HASH = getenv("API_HASH")
-API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "1f217c5d594a79ce7576802dfa0688f1"))
+API_ID = int(getenv("API_ID", "14200817"))
 BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
     BLACKLIST_CHAT = [-1001473548283, -1001687155877]
